@@ -64,7 +64,12 @@
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#useful-links">Useful links</a></li>
+    <li>
+      <a href="#useful-links">Useful links</a>
+      <ul>
+        <li><a href="#youtube-videos">YouTube videos</a></li>
+      </ul>
+    </li>
   </ol>
 </details>
 
