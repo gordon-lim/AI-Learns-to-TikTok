@@ -106,6 +106,7 @@ Refer to Jupyter Notebook in the order corresponding to their indexes
 * (091120) 15 second spectrogram might cause data to be lost
 * (091120) In image captioning I dealt with around 10 words, but for a 15 second video at 15fps I will have 225 frames. I don't think the LSTM may work well with a 225 word long sentence
 * (141120) Not able to use cv2 and openpose within the same script because of a memory allocation error (TCMalloc); was working fine until I decide not to work in a virtual env for scikit learn to work
+* (011220) Tried to overfit the model just for a proof of concept but couldn't get my l1loss below 20. Model will repeat the same predictions after a few frames.
 
 <!-- CONTRIBUTING -->
 ## Contributing
