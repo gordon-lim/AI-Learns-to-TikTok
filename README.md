@@ -137,10 +137,10 @@ Gordon - gordonlim214@gmail.com
 ## Useful Links
 
 * [Human Pose Estimation](https://nanonets.com/blog/human-pose-estimation-2d-guide/)
-* [Effects of spectrogram pre-processing for audio classification] (https://medium.com/using-cnn-to-classify-audio/effects-of-spectrogram-pre-processing-for-audio-classification-a551f3da5a46)
-* [Create csv for dataloader] (https://peltarion.com/knowledge-center/documentation/datasets-view/example-workflows---datasets-view/create-new-dataset-/-example-workflow)
-* [TCMalloc error] (https://google.github.io/tcmalloc/design.html#:~:text=TCMalloc%20is%20a%20memory%20allocator,and%20deallocation%20for%20most%20objects.&text=Low%20overhead%20sampling%2C%20enabling%20detailed%20insight%20into%20applications%20memory%20usage)
-* [How to normalize spectrograms] (https://enzokro.dev/spectrogram_normalizations/2020/09/10/Normalizing-spectrograms-for-deep-learning.html#:~:text=The%20spectrogram%20is%20a%202,when%20their%20inputs%20are%20normalized)
+* [Effects of spectrogram pre-processing for audio classification](https://medium.com/using-cnn-to-classify-audio/effects-of-spectrogram-pre-processing-for-audio-classification-a551f3da5a46)
+* [Create csv for dataloader](https://peltarion.com/knowledge-center/documentation/datasets-view/example-workflows---datasets-view/create-new-dataset-/-example-workflow)
+* [TCMalloc error](https://google.github.io/tcmalloc/design.html#:~:text=TCMalloc%20is%20a%20memory%20allocator,and%20deallocation%20for%20most%20objects.&text=Low%20overhead%20sampling%2C%20enabling%20detailed%20insight%20into%20applications%20memory%20usage)
+* [How to normalize spectrograms](https://enzokro.dev/spectrogram_normalizations/2020/09/10/Normalizing-spectrograms-for-deep-learning.html#:~:text=The%20spectrogram%20is%20a%202,when%20their%20inputs%20are%20normalized)
 
 ### YouTube videos
 
