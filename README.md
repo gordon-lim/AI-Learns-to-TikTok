@@ -59,7 +59,7 @@
     <li><a href="#overview">Overview</a></li>
     <li><a href="#prerequisites">Prerequisites</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#shortcomings">Shortcomings</a></li>
+    <li><a href="#logs">Logs</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -104,8 +104,8 @@ OpenPose needs to be installed
 
 Refer to Jupyter Notebook in the order corresponding to their indexes
 
-<!-- SHORTCOMINGS -->
-## Shortcomings
+<!-- LOGS -->
+## Logs
 
 * (041120) AI only 'sees' left channel of music as you can only create spectrogram from one channel
 * (091120) 15 second spectrogram might cause data to be lost
@@ -113,6 +113,7 @@ Refer to Jupyter Notebook in the order corresponding to their indexes
 * (141120) Not able to use cv2 and openpose within the same script because of a memory allocation error (TCMalloc); was working fine until I decided not to work in a virtual env for scikit learn to work
 * (281120) My pose plots are upside down but I don't think it should matter
 * (011220) Tried to overfit the model just for a proof of concept but couldn't get my l1loss below 20. Model will repeat the same predictions after a few frames.
+* (041220) After revisting my code, I realised that I assumed the input shape to lstm as (batch, seq_len, input_size). I found out from the documentation that the default is (seq_len, batch, input_size). This is huge! I have since 'set batch_first=True' in the lstm params and will be training my model from scratch.
 
 <!-- CONTRIBUTING -->
 ## Contributing
